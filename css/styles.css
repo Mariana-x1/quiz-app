@@ -1,0 +1,183 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitelight;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(193, 241, 241);
+  font-size: small;
+  text-align: left;
+  color: rgb(30, 41, 155);
+  padding: 2px 2px;
+  margin-top: 0;
+}
+
+.quiz_app {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+}
+
+.flexbox_card {
+  border: 3px solid cadetblue;
+  border-radius: 10px;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 60px;
+  margin: auto;
+}
+
+.flexbox_card_text {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.flexbox_card_button {
+  background: rgb(152, 238, 231);
+  color: rgb(2, 13, 28);
+  border: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.flexbox_card-2 {
+  margin-top: 40px;
+}
+
+.bookmarks_flexbox-card {
+  margin-top: 30px;
+}
+
+.profile {
+  display: flex;
+  margin: 10px;
+}
+
+p {
+  margin-left: 35px;
+}
+
+.nav-bar {
+  display: block;
+  gap: irem;
+  justify-items: center;
+  justify-content: space-around;
+  flex: wrap;
+  padding: 3px;
+  margin-left: auto;
+}
+button {
+  margin: 5px;
+  border-radius: 1px;
+}
+main {
+  padding: 30px;
+}
+
+.profile-bild {
+  border-radius: 10px;
+  width: 15%;
+  height: 15%;
+  vertical-align: left;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.maxdoe {
+  margin-left: 30px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a:hover {
+  color: rgb(96, 3, 47);
+}
+
+.my-skils {
+  text-align: center;
+  background: #655a5a;
+  border: 2px;
+  color: orange;
+  padding: 4px;
+  margin-right: 0;
+  border-radius: 20px;
+}
+
+.tech-stack {
+  border-radius: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif georgia, Times;
+  font-size: 20px;
+  background-color: rgb(198, 226, 226);
+  padding: 20px;
+  margin: auto;
+}
+.titel_tech-stack {
+  margin-top: 0;
+}
+
+.tech_profile {
+  background-color: rgb(216, 249, 238);
+  border: 3px solid rgb(25, 91, 85);
+  border-radius: 5px;
+  display: flex;
+  gap: irem;
+  justify-content: left;
+  align-items: center;
+  padding: 7px;
+  margin: 20px;
+  position: absolute;
+}
+
+.button2 {
+  position: static;
+  display: block;
+  gap: irem;
+  justify-content: center;
+  border-radius: 45px;
+  margin-top: 13rem;
+  padding: 3px;
+}
+
+footer {
+  background: rgb(232, 230, 230);
+  padding: 0px;
+  margin-top: 150px;
+  margin-bottom: 0;
+  display: blocks;
+  justify-content: start;
+  text-align: right;
+}
+
+footer a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-size: 18px;
+  flex-direction: column;
+  text-align: center;
+  gap: irem;
+  padding: 10px;
+  margin: auto;
+  line-height: 79px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer__profile {
+  margin-top: 330px;
+}
